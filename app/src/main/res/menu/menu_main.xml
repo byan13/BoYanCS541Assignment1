@@ -2,8 +2,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.assignment1_unitconverter.MainActivity" >
-    <item android:id="@+id/action_settings"
-        android:title="@string/action_settings"
-        android:orderInCategory="100"
-        app:showAsAction="never" />
+<!--    <item android:id="@+id/action_settings"-->
+<!--        android:title="Reset"-->
+<!--        android:orderInCategory="100"-->
+<!--        app:showAsAction="never" />-->
+    <item
+        android:id="@+id/action_mile"
+        android:icon="@drawable/ic_mile"
+        android:title="mile" />
+    <item
+        android:id="@+id/action_yard"
+        android:icon="@drawable/ic_yard"
+        android:title="yard"/>
+    <item
+        android:id="@+id/action_foot"
+        android:icon="@drawable/ic_foot"
+        android:title="foot" />
+    <item
+        android:id="@+id/action_inch"
+        android:icon="@drawable/ic_inch"
+        android:title="inch" />
 </menu>
