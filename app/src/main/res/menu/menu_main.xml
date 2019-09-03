@@ -8,18 +8,18 @@
 <!--        app:showAsAction="never" />-->
     <item
         android:id="@+id/action_mile"
-        android:icon="@drawable/ic_mile"
+        android:icon="@drawable/ic_swap"
         android:title="mile" />
     <item
         android:id="@+id/action_yard"
-        android:icon="@drawable/ic_yard"
+        android:icon="@drawable/ic_swap"
         android:title="yard"/>
     <item
         android:id="@+id/action_foot"
-        android:icon="@drawable/ic_foot"
+        android:icon="@drawable/ic_swap"
         android:title="foot" />
     <item
         android:id="@+id/action_inch"
-        android:icon="@drawable/ic_inch"
+        android:icon="@drawable/ic_swap"
         android:title="inch" />
 </menu>

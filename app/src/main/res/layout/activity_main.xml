@@ -34,21 +34,21 @@
         android:text="Convert"
         app:icon="@drawable/ic_arrow"/>
 
-    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-        android:id="@+id/exFb"
-        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|start"
-        android:layout_margin="20dp"
-        android:text="Swap"
-        app:icon="@drawable/ic_swap"/>
+<!--    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton-->
+<!--        android:id="@+id/exFb"-->
+<!--        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="bottom|start"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:text="Swap"-->
+<!--        app:icon="@drawable/ic_swap"/>-->
 
     <io.github.yavski.fabspeeddial.FabSpeedDial
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="top"
-        app:fabGravity="top_end"
+        android:layout_gravity="bottom"
+        app:fabGravity="bottom_start"
         app:fabMenu="@menu/menu_main"
         app:miniFabBackgroundTint="@android:color/white"
         app:miniFabDrawableTint="?attr/colorPrimaryDark"
