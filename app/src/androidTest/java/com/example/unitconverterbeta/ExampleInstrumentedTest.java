@@ -1,4 +1,4 @@
-package com.example.assignment1_unitconverter;
+package com.example.unitconverterbeta;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.assignment1_unitconverter", appContext.getPackageName());
+        assertEquals("com.example.unitconverterbeta", appContext.getPackageName());
     }
 }

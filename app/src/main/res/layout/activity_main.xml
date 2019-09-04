@@ -6,52 +6,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:padding="16dp">
+    android:padding="20dp">
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:theme="@style/AppTheme.AppBarOverlay">
+<!--    <com.google.android.material.appbar.AppBarLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:theme="@style/AppTheme.AppBarOverlay"/>-->
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
-
-    </com.google.android.material.appbar.AppBarLayout>
-
-    <include layout="@layout/content_main"/>
+    <include layout="@layout/content_main" />
 
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-        android:id="@+id/fab"
+        android:id="@+id/exFabConvert"
         style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="20dp"
-        android:text="Convert"
-        app:icon="@drawable/ic_arrow"/>
-
-<!--    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton-->
-<!--        android:id="@+id/exFb"-->
-<!--        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_gravity="bottom|start"-->
-<!--        android:layout_margin="20dp"-->
-<!--        android:text="Swap"-->
-<!--        app:icon="@drawable/ic_swap"/>-->
+        android:text="@string/convert"
+        app:icon="@drawable/ic_convert"/>
 
     <io.github.yavski.fabspeeddial.FabSpeedDial
+        android:id="@+id/sdFabLeft"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        app:fabGravity="bottom_start"
-        app:fabMenu="@menu/menu_main"
+        android:layout_gravity="top"
+        app:fabGravity="top_start"
+        app:fabMenu="@menu/menu_left"
         app:miniFabBackgroundTint="@android:color/white"
         app:miniFabDrawableTint="?attr/colorPrimaryDark"
-        app:miniFabTitleTextColor="?attr/colorPrimaryDark" />
+        app:miniFabTitleTextColor="?attr/colorPrimaryDark"/>
+
+<!--    <io.github.yavski.fabspeeddial.FabSpeedDial-->
+<!--        android:id="@+id/sdFabRight"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="top"-->
+<!--        app:fabGravity="top_end"-->
+<!--        app:fabMenu="@menu/menu_right"-->
+<!--        app:miniFabBackgroundTint="@android:color/white"-->
+<!--        app:miniFabDrawableTint="?attr/colorPrimaryDark"-->
+<!--        app:miniFabTitleTextColor="?attr/colorPrimaryDark"/>-->
 
 </FrameLayout>

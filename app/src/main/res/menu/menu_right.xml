@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.unitconverterbeta.MainActivity">
+<!--    <item-->
+<!--        android:id="@+id/action_settings"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="@string/action_settings"-->
+<!--        app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/toMile"
+        android:icon="@drawable/ic_swap"
+        android:title="To mile" />
+    <item
+        android:id="@+id/toKilometer"
+        android:icon="@drawable/ic_swap"
+        android:title="To kilometer" />
+    <item
+        android:id="@+id/toMeter"
+        android:icon="@drawable/ic_swap"
+        android:title="To meter" />
+    <item
+        android:id="@+id/toYard"
+        android:icon="@drawable/ic_swap"
+        android:title="To yard" />
+    <item
+        android:id="@+id/toFoot"
+        android:icon="@drawable/ic_swap"
+        android:title="To foot" />
+    <item
+        android:id="@+id/toInch"
+        android:icon="@drawable/ic_swap"
+        android:title="To inch" />
+
+</menu>

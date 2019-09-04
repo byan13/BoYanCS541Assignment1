@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name='Assignment1_UnitConverter'
+rootProject.name='Unit Converter Beta'
