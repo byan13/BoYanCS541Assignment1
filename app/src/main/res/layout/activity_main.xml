@@ -8,11 +8,6 @@
     tools:context=".MainActivity"
     android:padding="20dp">
 
-<!--    <com.google.android.material.appbar.AppBarLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:theme="@style/AppTheme.AppBarOverlay"/>-->
-
     <include layout="@layout/content_main" />
 
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
@@ -25,26 +20,33 @@
         android:text="@string/convert"
         app:icon="@drawable/ic_convert"/>
 
-    <io.github.yavski.fabspeeddial.FabSpeedDial
-        android:id="@+id/sdFabLeft"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="top"
-        app:fabGravity="top_start"
-        app:fabMenu="@menu/menu_left"
-        app:miniFabBackgroundTint="@android:color/white"
-        app:miniFabDrawableTint="?attr/colorPrimaryDark"
-        app:miniFabTitleTextColor="?attr/colorPrimaryDark"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
 
-<!--    <io.github.yavski.fabspeeddial.FabSpeedDial-->
-<!--        android:id="@+id/sdFabRight"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_gravity="top"-->
-<!--        app:fabGravity="top_end"-->
-<!--        app:fabMenu="@menu/menu_right"-->
-<!--        app:miniFabBackgroundTint="@android:color/white"-->
-<!--        app:miniFabDrawableTint="?attr/colorPrimaryDark"-->
-<!--        app:miniFabTitleTextColor="?attr/colorPrimaryDark"/>-->
+        <io.github.yavski.fabspeeddial.FabSpeedDial
+            android:id="@+id/sdFabLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            app:fabGravity="top_start"
+            app:fabMenu="@menu/menu_left"
+            app:miniFabBackgroundTint="@android:color/white"
+            app:miniFabDrawableTint="?attr/colorPrimaryDark"
+            app:miniFabTitleTextColor="?attr/colorPrimaryDark" />
+
+        <io.github.yavski.fabspeeddial.FabSpeedDial
+            android:id="@+id/sdFabRight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            app:fabGravity="top_end"
+            app:fabMenu="@menu/menu_right"
+            app:miniFabBackgroundTint="@android:color/white"
+            app:miniFabDrawableTint="?attr/colorPrimaryDark"
+            app:miniFabTitleTextColor="?attr/colorPrimaryDark" />
+
+    </LinearLayout>
 
 </FrameLayout>
