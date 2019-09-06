@@ -1,5 +1,6 @@
 package com.example.unitconverterbeta;
 
+import android.graphics.Color;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         FabSpeedDial sdFabLeft = findViewById(R.id.sdFabLeft);
         final TextView from = findViewById(R.id.from);
+        from.setTextColor(Color.parseColor("Blue"));
         sdFabLeft.setMenuListener(new FabSpeedDial.MenuListener() {
             public boolean onPrepareMenu(NavigationMenu navigationMenu) {
                 return true;
@@ -44,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         FabSpeedDial sdFabRight = findViewById(R.id.sdFabRight);
         final TextView to = findViewById(R.id.to);
+        to.setTextColor(Color.parseColor("Blue"));
         sdFabRight.setMenuListener(new FabSpeedDial.MenuListener() {
             public boolean onPrepareMenu(NavigationMenu navigationMenu) {
                 return true;
@@ -61,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
         ExtendedFloatingActionButton exFabConvert = findViewById(R.id.exFabConvert);
         final TextView output = findViewById(R.id.output);
+        output.setTextColor(Color.parseColor("Red"));
         final EditText input = findViewById(R.id.input);
         exFabConvert.setOnClickListener(new View.OnClickListener() {
             @Override
