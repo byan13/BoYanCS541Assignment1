@@ -18,6 +18,7 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="20dp"
         android:text="@string/convert"
+        app:fontFamily="@font/amita_bold"
         app:icon="@drawable/ic_convert"/>
 
     <LinearLayout

@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         FabSpeedDial sdFabLeft = findViewById(R.id.sdFabLeft);
         final TextView from = findViewById(R.id.from);
-        from.setTextColor(Color.parseColor("Blue"));
+        from.setTextColor(Color.parseColor("Black"));
         sdFabLeft.setMenuListener(new FabSpeedDial.MenuListener() {
             public boolean onPrepareMenu(NavigationMenu navigationMenu) {
                 return true;
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         FabSpeedDial sdFabRight = findViewById(R.id.sdFabRight);
         final TextView to = findViewById(R.id.to);
-        to.setTextColor(Color.parseColor("Blue"));
+        to.setTextColor(Color.parseColor("Black"));
         sdFabRight.setMenuListener(new FabSpeedDial.MenuListener() {
             public boolean onPrepareMenu(NavigationMenu navigationMenu) {
                 return true;
@@ -62,9 +62,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        final TextView equal = findViewById(R.id.equal);
+        equal.setTextColor(Color.parseColor("Black"));
+
         ExtendedFloatingActionButton exFabConvert = findViewById(R.id.exFabConvert);
         final TextView output = findViewById(R.id.output);
-        output.setTextColor(Color.parseColor("Red"));
+        output.setTextColor(Color.parseColor("Blue"));
         final EditText input = findViewById(R.id.input);
         exFabConvert.setOnClickListener(new View.OnClickListener() {
             @Override
