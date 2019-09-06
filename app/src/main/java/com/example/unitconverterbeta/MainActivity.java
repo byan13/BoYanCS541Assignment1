@@ -4,6 +4,7 @@ import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.internal.NavigationMenu;
 import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +13,7 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 import io.github.yavski.fabspeeddial.FabSpeedDial;
 
@@ -21,10 +23,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        Toolbar toolbar = findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
 
-        ExtendedFloatingActionButton exFabConvert = findViewById(R.id.exFabConvert);
 //        fab.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
@@ -34,8 +33,46 @@ public class MainActivity extends AppCompatActivity {
 //        });
 
         FabSpeedDial sdFabLeft = findViewById(R.id.sdFabLeft);
+        final TextView from = findViewById(R.id.from);
+        sdFabLeft.setMenuListener(new FabSpeedDial.MenuListener() {
+            @Override
+            public boolean onPrepareMenu(NavigationMenu navigationMenu) {
+                return true;
+            }
+
+            @Override
+            public boolean onMenuItemSelected(MenuItem menuItem) {
+                from.setText(menuItem.getTitle().subSequence(5, menuItem.getTitle().length()));
+                return true;
+            }
+
+            @Override
+            public void onMenuClosed() {
+
+            }
+        });
 
         FabSpeedDial sdFabRight = findViewById(R.id.sdFabRight);
+        final TextView to = findViewById(R.id.to);
+        sdFabRight.setMenuListener(new FabSpeedDial.MenuListener() {
+            @Override
+            public boolean onPrepareMenu(NavigationMenu navigationMenu) {
+                return true;
+            }
+
+            @Override
+            public boolean onMenuItemSelected(MenuItem menuItem) {
+                to.setText(menuItem.getTitle().subSequence(3, menuItem.getTitle().length()));
+                return true;
+            }
+
+            @Override
+            public void onMenuClosed() {
+
+            }
+        });
+
+        ExtendedFloatingActionButton exFabConvert = findViewById(R.id.exFabConvert);
     }
 
 //    @Override

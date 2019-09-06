@@ -11,26 +11,26 @@
     <item
         android:id="@+id/toMile"
         android:icon="@drawable/ic_swap"
-        android:title="To mile" />
+        android:title="To miles" />
     <item
         android:id="@+id/toKilometer"
         android:icon="@drawable/ic_swap"
-        android:title="To kilometer" />
+        android:title="To kilometers" />
     <item
         android:id="@+id/toMeter"
         android:icon="@drawable/ic_swap"
-        android:title="To meter" />
+        android:title="To meters" />
     <item
         android:id="@+id/toYard"
         android:icon="@drawable/ic_swap"
-        android:title="To yard" />
+        android:title="To yards" />
     <item
         android:id="@+id/toFoot"
         android:icon="@drawable/ic_swap"
-        android:title="To foot" />
+        android:title="To feet" />
     <item
         android:id="@+id/toInch"
         android:icon="@drawable/ic_swap"
-        android:title="To inch" />
+        android:title="To inches" />
 
 </menu>

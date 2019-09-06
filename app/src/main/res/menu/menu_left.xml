@@ -10,26 +10,26 @@
     <item
         android:id="@+id/fromMile"
         android:icon="@drawable/ic_swap"
-        android:title="From mile" />
+        android:title="From miles" />
     <item
         android:id="@+id/fromKilometer"
         android:icon="@drawable/ic_swap"
-        android:title="From kilometer" />
+        android:title="From kilometers" />
     <item
         android:id="@+id/fromMeter"
         android:icon="@drawable/ic_swap"
-        android:title="From meter" />
+        android:title="From meters" />
     <item
         android:id="@+id/fromYard"
         android:icon="@drawable/ic_swap"
-        android:title="From yard" />
+        android:title="From yards" />
     <item
         android:id="@+id/fromFoot"
         android:icon="@drawable/ic_swap"
-        android:title="From foot" />
+        android:title="From feet" />
     <item
         android:id="@+id/fromInch"
         android:icon="@drawable/ic_swap"
-        android:title="From inch" />
+        android:title="From inches" />
 
 </menu>
