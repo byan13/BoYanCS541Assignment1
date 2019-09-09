@@ -1,0 +1,225 @@
+commit a728f675f89ad7703d6553ad8e4124f99a1e7af9
+Author: byan13 <46941918+byan13@users.noreply.github.com>
+Date:   Sun Sep 8 22:28:55 2019 -0400
+
+    Update README.md
+
+ README.md | 20 ++++++++++++++++++++
+ 1 file changed, 20 insertions(+)
+
+commit 98cb7cca7f161e8322a7e7caa7102b027b379d52
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Sun Sep 8 00:42:32 2019 -0400
+
+    Final commit
+
+ 1StartScreen.png   | Bin 0 -> 70379 bytes
+ 2UnitSelecting.png | Bin 0 -> 165260 bytes
+ 3Converting.png    | Bin 0 -> 64710 bytes
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit bacc4768875fbf884d93501457d6aee75dba9ddd
+Author: byan13 <46941918+byan13@users.noreply.github.com>
+Date:   Sat Sep 7 16:36:21 2019 -0400
+
+    Update README.md
+
+ README.md | 25 ++++++++++++++++++++++++-
+ 1 file changed, 24 insertions(+), 1 deletion(-)
+
+commit c2d0424d13d0aaed85c2f1dfcab7a02d2fa2ae5d
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Fri Sep 6 16:08:09 2019 -0400
+
+    Length unit converter done
+
+ .../main/java/com/example/unitconverterbeta/MainActivity.java    | 9 ++++++---
+ app/src/main/res/layout/activity_main.xml                        | 1 +
+ 2 files changed, 7 insertions(+), 3 deletions(-)
+
+commit c2853f0efb49b2ce718df11c9ba879f7dc3c1a1d
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Fri Sep 6 15:56:30 2019 -0400
+
+    Add Colours
+
+ .../com/example/unitconverterbeta/MainActivity.java     |   4 ++++
+ app/src/main/res/drawable/clouds.jpg                    | Bin 0 -> 82184 bytes
+ 2 files changed, 4 insertions(+)
+
+commit 6a8f7690385336d9b891a85d44ace193d7817e62
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Fri Sep 6 12:07:54 2019 -0400
+
+    First version done
+
+ .../example/unitconverterbeta/MainActivity.java    | 191 ++++++++++++++++-----
+ app/src/main/res/layout/content_main.xml           |   2 +
+ app/src/main/res/menu/menu_left.xml                |   5 -
+ app/src/main/res/menu/menu_right.xml               |   6 -
+ 4 files changed, 154 insertions(+), 50 deletions(-)
+
+commit 40420e9f3473667c356a2236d8a9ce3c02600324
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Thu Sep 5 23:22:09 2019 -0400
+
+    SpeedDial done
+
+ .../example/unitconverterbeta/MainActivity.java    | 43 ++++++++++++++++++++--
+ app/src/main/res/layout/content_main.xml           | 27 ++++++++------
+ app/src/main/res/menu/menu_left.xml                | 12 +++---
+ app/src/main/res/menu/menu_right.xml               | 12 +++---
+ 4 files changed, 68 insertions(+), 26 deletions(-)
+
+commit 0bd514a09ec9b3989fb130f0da23cddf21d6f114
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Wed Sep 4 10:40:49 2019 -0400
+
+    Events updated
+
+ .../example/unitconverterbeta/MainActivity.java    | 48 ++++++++++++----------
+ 1 file changed, 27 insertions(+), 21 deletions(-)
+
+commit ee0df24e31c5f702b41b4d32162252b9b02b3031
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Tue Sep 3 23:12:44 2019 -0400
+
+    Final GUI
+
+ .../example/unitconverterbeta/MainActivity.java    |  2 +-
+ app/src/main/res/layout/activity_main.xml          | 52 +++++++++++-----------
+ app/src/main/res/layout/content_main.xml           | 12 +++++
+ 3 files changed, 40 insertions(+), 26 deletions(-)
+
+commit 641a793630aa83d58aa3d2b2f073abb5fefa1d4e
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Tue Sep 3 22:53:29 2019 -0400
+
+    GUI and Performance updated
+
+ .idea/.name                                        |  2 +-
+ app/build.gradle                                   |  8 +--
+ .../ExampleInstrumentedTest.java                   |  4 +-
+ app/src/main/AndroidManifest.xml                   |  5 +-
+ .../MainActivity.java                              | 22 ++++----
+ .../res/drawable/{ic_arrow.xml => ic_convert.xml}  |  0
+ app/src/main/res/drawable/ic_foot.xml              |  9 ----
+ app/src/main/res/drawable/ic_inch.xml              |  9 ----
+ app/src/main/res/drawable/ic_mile.xml              |  9 ----
+ app/src/main/res/drawable/ic_yard.xml              |  9 ----
+ app/src/main/res/font/amita_bold.xml               |  7 +++
+ app/src/main/res/layout/activity_main.xml          | 57 +++++++++-----------
+ app/src/main/res/layout/content_main.xml           | 60 ++++++++++++++++++++--
+ app/src/main/res/menu/menu_left.xml                | 35 +++++++++++++
+ app/src/main/res/menu/menu_main.xml                | 25 ---------
+ app/src/main/res/menu/menu_right.xml               | 36 +++++++++++++
+ app/src/main/res/values/font_certs.xml             | 17 ++++++
+ app/src/main/res/values/preloaded_fonts.xml        |  6 +++
+ app/src/main/res/values/strings.xml                |  3 +-
+ .../ExampleUnitTest.java                           |  2 +-
+ gradle/wrapper/gradle-wrapper.properties           |  2 +-
+ settings.gradle                                    |  2 +-
+ 22 files changed, 208 insertions(+), 121 deletions(-)
+
+commit 3d2aaa55d89e02651c2e606166ac579640e89f3f
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Mon Sep 2 22:23:56 2019 -0400
+
+    GUI updated
+
+ app/src/main/res/drawable/ic_arrow.xml    |  4 ++--
+ app/src/main/res/drawable/ic_swap.xml     |  6 +++---
+ app/src/main/res/layout/activity_main.xml | 22 +++++++++++-----------
+ app/src/main/res/layout/content_main.xml  | 27 +--------------------------
+ app/src/main/res/menu/menu_main.xml       |  8 ++++----
+ 5 files changed, 21 insertions(+), 46 deletions(-)
+
+commit 218a4c4c0bf2ce2c53e9b924e8d28dcad4972ff6
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Sun Sep 1 23:16:31 2019 -0400
+
+    Add Extended and speed dial fabs
+
+ app/build.gradle                                   |  1 +
+ .../assignment1_unitconverter/MainActivity.java    | 19 ++++++++++-------
+ app/src/main/res/drawable/ic_foot.xml              |  9 ++++++++
+ app/src/main/res/drawable/ic_inch.xml              |  9 ++++++++
+ app/src/main/res/drawable/ic_mile.xml              |  9 ++++++++
+ app/src/main/res/drawable/ic_yard.xml              |  9 ++++++++
+ app/src/main/res/layout/activity_main.xml          | 17 ++++++++++++---
+ app/src/main/res/menu/menu_main.xml                | 24 ++++++++++++++++++----
+ 8 files changed, 83 insertions(+), 14 deletions(-)
+
+commit 04cc5a72a22f49e4c070fdafc7ece341f708162a
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Sat Aug 31 13:39:25 2019 -0400
+
+    Basic GUI update
+
+ app/build.gradle                                   |  1 +
+ .../assignment1_unitconverter/MainActivity.java    | 16 +++++++--------
+ app/src/main/res/drawable/ic_arrow.xml             |  9 ++++++++
+ app/src/main/res/drawable/ic_swap.xml              |  9 ++++++++
+ app/src/main/res/layout/activity_main.xml          | 18 +++++++++++++---
+ app/src/main/res/layout/content_main.xml           | 24 +++++++++++++++++-----
+ app/src/main/res/values/styles.xml                 |  2 +-
+ 7 files changed, 62 insertions(+), 17 deletions(-)
+
+commit f05482b6b352bce56fa3077581d5191137e72a4a
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Fri Aug 30 13:34:33 2019 -0400
+
+    First commit
+
+ .gitignore                                         |  14 ++
+ .idea/.name                                        |   1 +
+ .idea/codeStyles/Project.xml                       | 116 ++++++++++++++
+ .idea/gradle.xml                                   |  16 ++
+ .idea/misc.xml                                     |   9 ++
+ .idea/runConfigurations.xml                        |  12 ++
+ .idea/vcs.xml                                      |   6 +
+ app/.gitignore                                     |   1 +
+ app/build.gradle                                   |  30 ++++
+ app/proguard-rules.pro                             |  21 +++
+ .../ExampleInstrumentedTest.java                   |  27 ++++
+ app/src/main/AndroidManifest.xml                   |  24 +++
+ .../assignment1_unitconverter/MainActivity.java    |  52 +++++++
+ .../res/drawable-v24/ic_launcher_foreground.xml    |  34 ++++
+ .../main/res/drawable/ic_launcher_background.xml   | 170 ++++++++++++++++++++
+ app/src/main/res/layout/activity_main.xml          |  34 ++++
+ app/src/main/res/layout/content_main.xml           |  21 +++
+ app/src/main/res/menu/menu_main.xml                |   9 ++
+ app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml |   5 +
+ .../res/mipmap-anydpi-v26/ic_launcher_round.xml    |   5 +
+ app/src/main/res/mipmap-hdpi/ic_launcher.png       | Bin 0 -> 2963 bytes
+ app/src/main/res/mipmap-hdpi/ic_launcher_round.png | Bin 0 -> 4905 bytes
+ app/src/main/res/mipmap-mdpi/ic_launcher.png       | Bin 0 -> 2060 bytes
+ app/src/main/res/mipmap-mdpi/ic_launcher_round.png | Bin 0 -> 2783 bytes
+ app/src/main/res/mipmap-xhdpi/ic_launcher.png      | Bin 0 -> 4490 bytes
+ .../main/res/mipmap-xhdpi/ic_launcher_round.png    | Bin 0 -> 6895 bytes
+ app/src/main/res/mipmap-xxhdpi/ic_launcher.png     | Bin 0 -> 6387 bytes
+ .../main/res/mipmap-xxhdpi/ic_launcher_round.png   | Bin 0 -> 10413 bytes
+ app/src/main/res/mipmap-xxxhdpi/ic_launcher.png    | Bin 0 -> 9128 bytes
+ .../main/res/mipmap-xxxhdpi/ic_launcher_round.png  | Bin 0 -> 15132 bytes
+ app/src/main/res/values/colors.xml                 |   6 +
+ app/src/main/res/values/dimens.xml                 |   3 +
+ app/src/main/res/values/strings.xml                |   4 +
+ app/src/main/res/values/styles.xml                 |  20 +++
+ .../assignment1_unitconverter/ExampleUnitTest.java |  17 ++
+ build.gradle                                       |  27 ++++
+ gradle.properties                                  |  20 +++
+ gradle/wrapper/gradle-wrapper.jar                  | Bin 0 -> 54329 bytes
+ gradle/wrapper/gradle-wrapper.properties           |   6 +
+ gradlew                                            | 172 +++++++++++++++++++++
+ gradlew.bat                                        |  84 ++++++++++
+ settings.gradle                                    |   2 +
+ 42 files changed, 968 insertions(+)
+
+commit af89cdf69e6de9b83a96b7130631ec72285ece0f
+Author: byan13 <46941918+byan13@users.noreply.github.com>
+Date:   Fri Aug 30 13:06:57 2019 -0400
+
+    Initial commit
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
