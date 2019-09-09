@@ -22,3 +22,23 @@ The function of this app is simple, Algorithms used are just multiplaction and d
 
 More types of units such as weight and others will be added later, after I figure out how to do multiple screens activation and different menus layouts, it will be interesting.
 
+08/30
+create repository
+08/31
+Basic GUI design
+09/01
+Start coding GUI layouts and components
+09/02
+Add extended fab and speed dial fabs
+09/03
+Finish GUI
+09/04
+Start handling events
+09/05
+finsih events
+09/06
+Modify GUI and finish testing
+09/07
+Update README
+09/08
+Final commit
